@@ -1,0 +1,104 @@
+:root {
+  --orange: rgb(254, 238, 0);
+}
+img {
+  object-fit: contain;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+/* Navbar Styles */
+
+.navbar {
+  padding: 10px 0;
+  /* background-color: var(--orange) !important; */
+}
+
+.navbar-brand img {
+  max-height: 50px;
+  border-radius: 12px;
+}
+
+.form-control {
+  border-radius: 20px 0 0 20px;
+  width: 450px;
+}
+
+.form-control:active,
+.form-control:focus {
+  box-shadow: none;
+}
+
+.btn-outline-success {
+  border-radius: 0 20px 20px 0;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus {
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.express {
+  border: 1px solid black;
+  padding: 0.3em;
+  border-radius: 4px 25px 4px 0;
+  margin: 0 0.12em;
+}
+/* Navbar Style Ends */
+
+/* Carausel  */
+
+.carousel {
+  max-height: 380px;
+  max-width: 1520px;
+  margin: 0 0 2rem 0;
+  background-color: var(--orange);
+}
+
+.carousel-item {
+  max-height: 380px;
+  max-width: 1520px;
+}
+
+.free-delivery {
+  background-color: white;
+  border-radius: 14px;
+  padding: 0.23em 0.5em;
+}
+/* Carausel Ends */
+
+/* Accessories Section */
+.accessories-row {
+  display: flex;
+  overflow-x: scroll;
+  white-space: nowrap;
+  max-width: 1520px;
+}
+
+.accessory {
+  display: inline-block;
+  margin-right: 50px;
+  text-align: center;
+}
+
+.accessory img {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Accessories Section Ends */

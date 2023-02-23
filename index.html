@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Babby</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light px-2">
+        <div class="container-fluid">
+          <!-- Logo -->
+          <a class="navbar-brand" href="/"
+            ><img src="./Images/happybaby logo.jpg" alt="Logo"
+          /></a>
+          <!-- Toggle Button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Search Bar -->
+          <div class="collapse navbar-collapse me-2" id="navbarNav">
+            <form class="d-flex ms-auto my-2 my-lg-0">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="What are you looking for ?"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+            <!-- Sign In and Cart Menu -->
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  >Sign In <i class="fa-solid fa-user ps-2"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><i class="bi bi-cart"></i> Cart
+                  <i class="fa-solid fa-cart-shopping ps-2"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Navbar Ends -->
+
+    <!-- Carausel Section  -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide mx-auto"
+      data-bs-ride="carousel"
+    >
+      <div class="p-4">
+        <h3>
+          Get 15% cashback+ <span class="free-delivery">Free Delivery</span>
+        </h3>
+        <h4>on <span class="express">express</span> item on you first order</h4>
+      </div>
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://f.nooncdn.com/mpcms/EN0001/assets/3565e4f6-540e-4a2c-8f34-c82244a2a4e0.png"
+            alt="https://www.emiratesrc.ae/relief/Default_en.aspx"
+            width="100%"
+            height="100%"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://f.nooncdn.com/mpcms/EN0001/assets/6baa3904-5124-413b-a994-eda5c5a4e16e.jpg"
+            alt="/kitchenappliances?sort[by]=popularity&amp;sort[dir]=desc"
+            width="100%"
+            height="100%"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://f.nooncdn.com/mpcms/EN0001/assets/56921ba5-3479-46c4-8b02-4874d7f38489.png"
+            alt="https://daily.noon.com/uae-en/grocery-pre11"
+            width="100%"
+            height="100%"
+          />
+        </div>
+      </div>
+
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Carausel Section Ends -->
+
+    <!-- Accesspries   Section -->
+    <div class="container-fluid py-4">
+      <div class="row">
+        <div class="col py-4">
+          <div class="accessories-row mx-auto">
+            <div class="accessory">
+              <img
+                src="https://f.nooncdn.com/mpcms/EN0001/assets/c00b769c-328f-4525-a8cc-f0f14918e9b2.png"
+                alt="Accessory 1"
+              />
+            </div>
+            <div class="accessory">
+              <img
+                src="https://f.nooncdn.com/mpcms/EN0001/assets/68601876-55ca-4f00-8b38-bb04ed28bf0c.png"
+                alt="Accessory 2"
+              />
+            </div>
+            <div class="accessory">
+              <img
+                src="https://f.nooncdn.com/mpcms/EN0001/assets/cf847f24-9b25-4a43-b2b1-ff8881fb51ab.png"
+                alt="Accessory 3"
+              />
+            </div>
+            <div class="accessory">
+              <img
+                src="https://f.nooncdn.com/mpcms/EN0001/assets/a079af80-5348-4e33-a87c-7825432c17ac.png"
+                alt="Accessory 4"
+              />
+            </div>
+            <div class="accessory">
+              <img
+                src="https://f.nooncdn.com/mpcms/EN0001/assets/b680acd9-5df4-40e4-b14c-fa7fe0fe84c3.png"
+                alt="Accessory 5"
+              />
+            </div>
+            <div class="accessory">
+              <img
+                src="https://f.nooncdn.com/mpcms/EN0001/assets/c9289a52-80e4-46ce-9a39-47c408ea902a.png"
+                alt="Accessory 6"
+              />
+            </div>
+            <div class="accessory">
+              <img
+                src="https://f.nooncdn.com/mpcms/EN0001/assets/d398aa22-c9ee-4f7f-9b71-8c74163f79f8.png"
+                alt="Accessory 7"
+              />
+            </div>
+            <div class="accessory">
+              <img
+                src="https://f.nooncdn.com/mpcms/EN0001/assets/beffdc53-26ca-45b1-b3d5-84c1a0909903.png"
+                alt="Accessory 8"
+              />
+            </div>
+            <div class="accessory">
+              <img
+                src="https://f.nooncdn.com/mpcms/EN0001/assets/daaee684-f30a-4896-9f8b-02405aec5dca.png"
+                alt="Accessory 9"
+              />
+            </div>
+            <div class="accessory">
+              <img
+                src="https://f.nooncdn.com/mpcms/EN0001/assets/fa424b75-dd11-4939-80c3-5090e0d691e7.png"
+                alt="Accessory 10"
+              />
+            </div>
+            <div class="accessory">
+              <img
+                src="https://f.nooncdn.com/mpcms/EN0001/assets/ed889b28-66e2-4ee0-aa41-be4c885ca396.png"
+                alt="Accessory 11"
+              />
+            </div>
+            <div class="accessory">
+              <img
+                src="https://f.nooncdn.com/mpcms/EN0001/assets/c8ebfa8d-52db-4352-b12d-57ee96108e18.png"
+                alt="Accessory 12"
+              />
+            </div>
+            <div class="accessory">
+              <img
+                src="https://f.nooncdn.com/mpcms/EN0001/assets/ed889b28-66e2-4ee0-aa41-be4c885ca396.png"
+                alt="Accessory 13"
+              />
+            </div>
+            <div class="accessory">
+              <img
+                src="https://f.nooncdn.com/mpcms/EN0001/assets/67edd848-2b6f-4c93-b2e6-c72879bafb03.png"
+                alt="Accessory 14"
+              />
+            </div>
+            <div class="accessory">
+              <img
+                src="https://f.nooncdn.com/mpcms/EN0001/assets/b531fe1e-3adb-4f09-9927-0f2f64c8fa66.png"
+                alt="Accessory 15"
+              />
+            </div>
+            <div class="accessory">
+              <img
+                src="https://f.nooncdn.com/mpcms/EN0001/assets/e5dfc70c-b5ce-48c5-b131-45205ed42c97.png"
+                alt="Accessory 16"
+              />
+            </div>
+            <div class="accessory">
+              <img
+                src="https://f.nooncdn.com/mpcms/EN0001/assets/7e05ba0c-534e-4f44-bbdc-2b1f728d4490.png"
+                alt="Accessory 17"
+              />
+            </div>
+            <div class="accessory">
+              <img
+                src="https://f.nooncdn.com/mpcms/EN0001/assets/a2de506c-31bc-4b1e-b344-fe17938eb08d.png"
+                alt="Accessory 18"
+              />
+            </div>
+            <div class="accessory">
+              <img
+                src="https://f.nooncdn.com/mpcms/EN0001/assets/16c23d4f-1567-49a9-9a41-d520365f42df.png"
+                alt="Accessory 19"
+              />
+            </div>
+            <div class="accessory">
+              <img
+                src="https://f.nooncdn.com/mpcms/EN0001/assets/050a6adb-648e-4c3a-800f-62b43f730830.png"
+                alt="Accessory 20"
+              />
+            </div>
+            <div class="accessory">
+              <img
+                src="https://f.nooncdn.com/mpcms/EN0001/assets/04f16c51-7947-4192-811a-5df18197f92f.png"
+                alt="Accessory 21"
+              />
+            </div>
+            <div class="accessory">
+              <img
+                src="https://f.nooncdn.com/mpcms/EN0001/assets/e8ff842c-780c-41d5-ab60-14f545c1c4be.png"
+                alt="Accessory 22"
+              />
+            </div>
+            <div class="accessory">
+              <img
+                src="https://f.nooncdn.com/mpcms/EN0001/assets/3ffb7d19-5099-4b5b-b45f-c18b513badaf.png"
+                alt="Accessory 23"
+              />
+            </div>
+            <div class="accessory">
+              <img
+                src="https://f.nooncdn.com/mpcms/EN0001/assets/21b5a94b-99ae-4a3e-901b-b612bbf4bec4.png"
+                alt="Accessory 24"
+              />
+            </div>
+            <div class="accessory">
+              <img
+                src="https://f.nooncdn.com/mpcms/EN0001/assets/73adcae1-e8f6-463c-9010-807f58ec2066.png"
+                alt="Accessory 25"
+              />
+            </div>
+            <div class="accessory">
+              <img
+                src="https://f.nooncdn.com/mpcms/EN0001/assets/7831b93a-1bac-48cd-ad2b-833a5b1ce677.png"
+                alt="Accessory 26"
+              />
+            </div>
+            <div class="accessory">
+              <img
+                src="https://f.nooncdn.com/mpcms/EN0001/assets/284427e8-a7ef-411c-b668-8bb768ad0c34.png"
+                alt="Accessory 27"
+              />
+            </div>
+            <div class="accessory">
+              <img
+                src="https://f.nooncdn.com/mpcms/EN0001/assets/30338ccb-d150-46b3-bdeb-88d7b83c7825.png"
+                alt="Accessory 28"
+              />
+            </div>
+            <div class="accessory">
+              <img
+                src="https://f.nooncdn.com/mpcms/EN0001/assets/db4c5fd2-95ec-4e7b-b5c8-cf0bbd96ee22.png"
+                alt="Accessory 26"
+              />
+            </div>
+            <div class="accessory">
+              <img
+                src="https://f.nooncdn.com/mpcms/EN0001/assets/e2dd2d4c-3f78-4b27-a909-1e1e4f77635c.png"
+                alt="/kitchen-dining"
+                class="sc-hHLeRK kjhlEP"
+              />
+            </div>
+            <div class="accessory">
+              <img
+                src="https://f.nooncdn.com/mpcms/EN0001/assets/48e7d146-f537-4902-97c1-b43aefacf9e3.png"
+                alt="/tools-and-home-improvement-store"
+                class="sc-hHLeRK kjhlEP"
+              />
+            </div>
+            <div class="accessory">
+              <img
+                src="https://f.nooncdn.com/mpcms/EN0001/assets/12484ac6-ad98-4fce-bd04-669477ade7ec.png"
+                alt="/automotive-store"
+                class="sc-hHLeRK kjhlEP"
+              />
+            </div>
+            <div class="accessory">
+              <img
+                src="https://f.nooncdn.com/mpcms/EN0001/assets/c2fa27ca-4bcf-4b17-8831-3cfc335575b5.png"
+                alt="/ae-bestsellers"
+                class="sc-hHLeRK kjhlEP"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Accesspries   Section Ends-->
+
+    <!-- Good  -->
+
+    <!-- Good Ends  -->
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"
+  ></script>
+</html>
