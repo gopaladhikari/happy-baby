@@ -149,6 +149,7 @@ h5 {
 .card-text {
   font-size: 14px;
   font-weight: 500;
+  margin: 0;
 }
 
 .card-img-top {
@@ -181,13 +182,13 @@ h5 {
 }
 
 .card {
-  margin-right: 15px;
+  margin-right: 20px;
   border: none;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .card img {
-  max-height: 200px;
+  max-height: 220px;
   object-fit: cover;
 }
 
@@ -218,7 +219,7 @@ h5 {
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
-  margin: 10px;
+  margin: 15px 0;
 }
 .card-body .btn:hover {
   background-color: #0062cc;
@@ -230,3 +231,7 @@ h5 {
 }
 
 /* LG Banner Ends */
+
+.Electronics .card {
+  margin-right: 41px !important;
+}
