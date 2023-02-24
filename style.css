@@ -223,3 +223,10 @@ h5 {
 .card-body .btn:hover {
   background-color: #0062cc;
 }
+
+/* LG Banner  */
+.lg-banner {
+  max-width: 1520px;
+}
+
+/* LG Banner Ends */
