@@ -119,12 +119,16 @@ h6 {
   max-height: 380px;
   max-width: 1520px;
   margin: 0 0 2rem 0;
-  background-color: var(--orange);
+  /* background-color: var(--orange); */
 }
 
 .carousel-item {
   max-height: 380px;
   max-width: 1520px;
+}
+
+.carousel-control-next-item {
+  margin-top: 2rem;
 }
 
 .free-delivery {
@@ -194,6 +198,18 @@ h6 {
 }
 
 /* Goods End */
+
+/* Banner Section  */
+.banner-sec {
+  background-color: var(--orange);
+}
+
+@media only screen and (max-width: 1600px) {
+  .banner-sec {
+    width: 100%;
+  }
+}
+/* Banner Section Ends */
 
 /* Banner Card  */
 
