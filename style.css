@@ -4,8 +4,8 @@
 }
 body {
   background-color: #f7f7fa;
-  overflow-x: hidden;
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
 * {
@@ -43,6 +43,11 @@ h4 {
 }
 h5 {
   font-size: 0.9rem;
+  font-weight: 600;
+}
+
+h6 {
+  font-size: 0.87rem;
 }
 /* Navbar Styles */
 
@@ -256,4 +261,9 @@ h5 {
 
 .Electronics .card {
   margin-right: 34px !important;
+}
+
+.fa-question,
+.fa-envelope {
+  font-size: 1rem !important;
 }
