@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 :root {
   --orange: rgb(254, 238, 0);
 }
 body {
   background-color: #f7f7fa;
   overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
 }
 
 * {
@@ -14,6 +16,21 @@ body {
 
 h1 {
   font-size: 1.87rem;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 18px !important;
+    font-weight: 500;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  h1 {
+    font-size: 24px !important;
+    font-weight: 500;
+  }
 }
 
 h3 {
@@ -153,10 +170,15 @@ h5 {
 }
 
 .card-img-top {
-  max-width: 150px;
+  max-width: 180px;
 }
 
 @media (max-width: 768px) {
+  .card-img-top {
+    max-width: 130px;
+  }
+}
+@media (max-width: 1199px) {
   .card-img-top {
     max-width: 150px;
   }
@@ -219,7 +241,7 @@ h5 {
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
-  margin: 15px 0;
+  margin: 10px 0;
 }
 .card-body .btn:hover {
   background-color: #0062cc;
@@ -233,5 +255,5 @@ h5 {
 /* LG Banner Ends */
 
 .Electronics .card {
-  margin-right: 41px !important;
+  margin-right: 34px !important;
 }
