@@ -5,7 +5,9 @@
 body {
   background-color: #f7f7fa;
   font-family: "Roboto", sans-serif;
-  overflow-x: hidden; /* Hide horizontal scrollbar */
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden !important; /* Hide horizontal scrollbar */
 }
 
 * {
@@ -268,15 +270,21 @@ h6 {
   background-color: #0062cc;
 }
 
-/* LG Banner  */
-.lg-banner {
-  max-width: 1520px;
+.Electronics .card {
+  overflow-y: hidden;
+  margin-right: 34px !important;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
-/* LG Banner Ends */
+@media only screen and (min-width: 1615px) {
+  .Electronics {
+    overflow: hidden;
+  }
+}
 
-.Electronics .card {
-  margin-right: 34px !important;
+.Electronics .card:hover {
+  transform: scale(1.03);
 }
 
 .fa-question,
